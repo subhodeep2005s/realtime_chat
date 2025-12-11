@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Realtime Encrypted Chat App",
     description:
       "The world's most secure realtime chat app with end-to-end encryption and private room-based messaging.",
-    url: "https://your-domain.com",
+    url: "https://chat.subhodeep.tech",
     siteName: "Realtime Chat App",
     images: [
       {

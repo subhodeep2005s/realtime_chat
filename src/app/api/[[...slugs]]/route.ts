@@ -242,7 +242,7 @@ const app = new Elysia({ prefix: "/api" }).use(rooms).use(messages);
 // Change this in production:
 // ALLOWED_ORIGIN="https://your-frontend-domain.com"
 const ALLOWED_ORIGIN =
-  process.env.ALLOWED_ORIGIN || "https://realtime-chat-eight-self.vercel.app";
+  process.env.ALLOWED_ORIGIN || "https://chat.subhodeep.tech";
 
 const CORS_HEADERS: Record<string, string> = {
   "Access-Control-Allow-Origin": ALLOWED_ORIGIN,
